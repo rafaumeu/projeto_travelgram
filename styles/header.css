@@ -1,5 +1,5 @@
 header {
-  padding-block: 32px;
+  padding-block: 2rem;
   font: var(--text-md)
 }
 header .container {
@@ -9,21 +9,21 @@ header .container {
 }
 #profile {
   display: flex;
-  gap: 32px;
+  gap: 2rem;
 }
 
 #profile > div {
-  max-width: 384px;
+  max-width: 24rem;
 }
 
 #profile h1 {
   font: var(--text-lg);
   color: var(--text-color-primary);
-  margin-bottom: 8px;
+  margin-bottom: .5rem;
 }
 #profile img {
-  width: 176px;
-  height: 176px;
+  width: 11rem;
+  height: 11rem;
   object-fit: cover;
   border-radius: 50%;
 }
@@ -32,12 +32,46 @@ header .container {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 16px;
-  width: 280px;
+  gap: 1rem;
+  width: 17.5rem;
 }
 
 #info li {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: .5rem;
+}
+@media (max-width: 48rem) {
+  header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #profile {
+    flex-direction: column;
+    gap: calc(2rem / 0.6);
+  }
+  #profile > div {
+    max-width: calc(24rem / 0.6);
+  }
+  #profile h1 {
+    margin-bottom: calc(.5rem / 0.6);
+  }
+  #profile img {
+    width: calc(11rem / 0.6);
+    height: calc(11rem / 0.6);
+  }  
+  #info li {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: calc(.5rem / 0.6);
+  }
+  #info {
+    gap: calc(1rem / 0.6);
+    width: calc(17.5rem / 0.6);
+  }
+  #primary-menu > li:nth-child(2),
+  #primary-menu > li:nth-child(3) {
+    display: none;
+  }
 }
