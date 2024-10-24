@@ -10,3 +10,9 @@ main img {
   height: 17.875rem;
   object-fit: cover;
 }
+@media (max-width: 48rem) {
+  main {
+    justify-content: center;
+    align-items: center;
+  }
+}

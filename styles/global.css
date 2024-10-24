@@ -19,6 +19,9 @@
   --text-sm: 12px/170% var(--font-family);
 }
 
+html, body {
+  overflow-x: hidden;
+}
 body {
   font: var(--font-family);
   color: var(--text-color-secondary);
