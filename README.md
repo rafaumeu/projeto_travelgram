@@ -1,6 +1,8 @@
 
 # Travelgram
 
+![Travelgram Logo](assets/icons/logo.svg)
+
 Travelgram is a platform for sharing and exploring travel experiences. Users can create profiles, share photos, and tell stories about their adventures around the world.
 
 ## Features
