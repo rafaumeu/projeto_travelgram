@@ -1,30 +1,30 @@
 
 # Travelgram
 
-Travelgram é uma plataforma para compartilhar e explorar experiências de viagem. Aqui, os usuários podem criar perfis, compartilhar fotos e histórias de suas aventuras pelo mundo.
+Travelgram is a platform for sharing and exploring travel experiences. Users can create profiles, share photos, and tell stories about their adventures around the world.
 
-## Funcionalidades
+## Features
 
-- **Perfil de Usuário**: Crie e personalize seu perfil com informações sobre você e suas viagens.
-- **Galeria de Imagens**: Compartilhe fotos de suas viagens e veja as de outros usuários.
-- **Interação**: Explore perfis de outros viajantes e descubra novos destinos.
+- **User Profile**: Create and customize your profile with information about yourself and your travels.
+- **Image Gallery**: Share photos from your travels and view those from other users.
+- **Interaction**: Explore other travelers' profiles and discover new destinations.
 
-## Tecnologias Utilizadas
+## Technologies Used
 
 - HTML5
 - CSS3
-- JavaScript (opcional)
+- JavaScript (optional)
 
-## Como Usar
+## How to Use
 
-1. Clone o repositório:
+1. Clone the repository:
    ```bash
-   git clone https://github.com/seu_usuario/travelgram.git
+   git clone https://github.com/your_username/travelgram.git
    ```
 
-2. Navegue até o diretório do projeto:
+2. Navigate to the project directory:
    ```bash
    cd travelgram
    ```
 
-3. Abra o arquivo `index.html` em um navegador.
+3. Open the `index.html` file in a browser.
